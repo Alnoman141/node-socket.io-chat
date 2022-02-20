@@ -1,0 +1,49 @@
+.logo {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.chat-container {
+    background-color: rgb(204, 255, 255);
+    height: 65vh;
+    width: 80%;
+    overflow-y: auto;
+}
+.msg-box {
+    background-color: #7bd0d7;
+    max-width: 45%;
+    padding: 10px;
+    margin: 20px 10px;
+    border-radius: 10px;
+    border: 2px solid #7bbfbc;
+    
+}
+.left {
+    float: left;
+    clear : both;
+}
+.right {
+    float: right;
+    clear : both;
+}
+
+.send-area {
+    height: 10vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+form.msg-form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+#msg {
+    width: 90%;
+    display: inline-block;
+}
